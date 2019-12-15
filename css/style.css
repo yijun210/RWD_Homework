@@ -1,0 +1,513 @@
+html{
+    background-color:white;
+}
+
+img{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    max-width: 1280px;
+    margin: auto;
+    background-color:white;
+    box-sizing: border-box;
+    padding-bottom: 57px;
+}
+
+header{
+    display: flex; 
+    align-items: flex-start;
+    min-width: 1024px;
+    margin-left: 126px;
+}
+.head_list{
+    margin:auto;
+    display: inherit;
+}
+.head_list_word1{
+   text-align: center;
+    
+}
+.head_list_word{
+    display: inline-block;
+    height: auto;
+    font-family: "Segoe UI","微軟正黑體",sans-serif;
+    color: #333;
+    margin:auto;
+    font-size: 18px;
+    text-decoration: none;
+}
+.headerlogo{
+    display: inline-block;
+    height: auto;
+    width: 25px;
+}
+.logo{
+    margin: 48px 416px 20px 0px;
+}
+
+.seach{
+    display: none;
+}
+
+.cart{
+    display: none;
+}
+
+.headertext{
+    margin-top: 80px;
+}
+
+.headertexting{
+    margin-right: 28px;
+    text-align: left;
+    font-family: Arial;
+    border: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+.nav{
+    margin: 0px 129px 0px 126px;
+    border: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.rainbow{
+    display: none;
+}
+
+article{
+    min-width: 1280px;
+    min-height: 114px;
+}
+
+
+
+aside{
+    min-width: 1280px;
+    min-height: 407px;
+}
+
+
+
+.asidepic{
+    margin-left: 126px;
+}
+
+.asidepic1{
+    margin-right: 15px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.asidepic2{
+    display: none;
+}
+
+footer{
+    width: 1023px;
+    height: 211px;
+    background-color: white;
+    margin-left: 126px;
+    border-radius: 20px;
+    margin-top: 54px;
+}
+
+.logo1{
+    margin: 48px 52px 87px 50px;
+}
+
+.footer {
+    display:flex;
+    flex-direction: row;
+    background-color: orange;
+}
+
+.endone {
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    padding-right: 50px;
+    text-decoration: none;
+    order: 1;
+
+}
+
+
+
+.endtwo {
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    order: 2;
+}
+
+.endthree{
+    flex-direction: row;
+    order: 3;
+    
+}
+footer p{
+    margin-bottom: 25px;
+}
+
+.endtwo img{
+    margin-right: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+    html{
+        background-color:white;
+    }
+    
+    img{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body{
+        max-width: 768px;
+        margin: auto;
+        background-color:white;
+        box-sizing: border-box;
+        padding-bottom: 18px;
+    }
+    
+    header{
+        display: flex; 
+        align-items: flex-start;
+        min-width: 768px;
+        margin-left: 78px;
+    }
+    .head_list{
+        margin:auto;
+    }
+    .head_list_word1{
+        margin-left: 100px;
+    }
+    .head_list_word{
+        font-family: "Segoe UI","微軟正黑體",sans-serif;
+        color: #333;
+        margin: auto;
+        font-size: 24px;
+    }
+    .logo{
+        margin: 28px 152px 15px 0px;
+        width: 115px;
+        height: 46px;
+    }
+
+    .seach{
+        display: none;
+    }
+
+    .cart{
+        display: none;
+    }
+    
+    .headertext{
+        margin-top: 44px;
+    }
+    
+    .headertexting{
+        margin-right: 24px;
+        text-align: left;
+        font-family: Arial;
+        border: 0px;
+        padding: 0px;
+        font-size: 18px;
+        color: #133063;
+    }
+    
+    
+    .nav{
+        width: 768px;
+        height: 391px;
+        display: block;
+        margin: 0px;
+    }
+
+    .rainbow{
+        display: none;
+    }
+    
+    article{
+        min-width: 768px;
+        min-height: 88px;
+    }
+    
+    .articletext{
+        text-align: center;
+        font-family: Arial;
+        border: 0px;
+        padding: 0px;
+        font-size: 19px;
+        color: #133063;
+        margin-top: 22px;
+        margin-bottom: 19px;
+    }
+    
+    aside{
+        min-width: 768px;
+        min-height: 268px;
+    }
+    
+    #input{
+        top: 542px;
+        left: 129px;
+        width: 510px;
+        height: 31px;
+        background: #FFFFFF;
+        border: 1px solid #133063;
+        border-radius: 8px;
+        font-size: 13px;
+        margin-left: 129px;
+        color: #133063;
+    }
+    
+    .asidetext{
+        text-align: center;
+        font-family: Arial;
+        border: 0px;
+        padding: 0px;
+        font-size: 19px;
+        color: #133063;
+        margin-top: 25px;
+        margin-bottom: 19px;
+    }
+    
+    .asidepic{
+        margin-left: 78px;
+    }
+    
+    .asidepic1{
+        width: 198px;
+        height: 203px;
+        margin-right: 9px;
+        display: inline-block;
+        flex-direction: row;
+    }
+
+    .asidepic2{
+        display: none;
+    }
+    
+    footer{
+        width: 612px;
+        height: 125px;
+        background-color: white;
+        margin-left: 78px;
+        border-radius: 12px;
+        margin-top: 33px;
+    }
+    
+    .logo1{
+        margin: 29px 29px 26px 22px;
+    }
+    
+    .footer {
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .endone {
+        font-family: Arial, Helvetica, sans-serif;
+        color:#133063;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+
+        display: none;
+    }
+    
+    
+    
+    .endtwo {
+        font-family: Arial, Helvetica, sans-serif;
+        color:#133063;
+        margin: 0px;
+        padding: 0px;
+        max-height: 100px;
+        display:flex;
+        flex-direction: row;
+    }
+
+ 
+    
+    footer p{
+        display: none;
+    }
+    
+    .endtwo img{
+        width: 32px;
+        height: 32px;
+        margin-right: 65px;
+        margin-top: 47px;
+    }
+
+    .endtwo p{
+        display: block;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-right: 23px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html{
+        background-color:white;
+    }
+    
+    img{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body{
+        max-width: 320px;
+        margin: auto;
+        background-color:white;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+    
+    header{
+        min-width: 320px;
+        margin-left: 15px;
+        display: none;
+        display: block;
+    }
+    .head_list{
+        margin:auto;
+        display: inherit;
+    }
+    .head_list_word1{
+        margin:10px;
+    }
+    .head_list_word{
+        font-family: "Segoe UI","微軟正黑體",sans-serif;
+        color: #333;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .header1{
+        display: flex; 
+        align-items: flex-start;
+    }
+
+    .logo{
+        margin: 13px 108px 12px 0px;
+        width: 99px;
+        height: 39px;
+    }
+   .shopping,.search{
+        height:20px;
+        margin-right: 10px;
+    }
+   
+    .seach{
+        width: 40px;
+        height: 40px;
+        margin-right: 9px;
+        background-color: white;
+        display: block;
+        border-radius: 10px;
+        margin-top: 13px;
+    }
+
+    .cart{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        display: block;
+        border-radius: 10px;
+        margin-top: 13px;
+    }
+    
+    .headertext{
+        margin: 0px;
+    }
+
+    .headertexting{
+        margin-right: 17px;
+        text-align: center;
+        font-family: Arial;
+        border: 0px;
+        padding: 0px;
+        font-size: 15px;
+        color: #333;
+    }
+    
+    .headerlogo{
+        width:20px;
+
+    }
+    
+    .nav{
+        display: none;
+    }
+
+    .rainbow{
+        width: 320px;
+        height: 260px;
+        display: block;
+        margin: 7px auto 0;
+    }
+    
+    article{
+        min-width: 768px;
+        min-height: 88px;
+
+        display: none;
+    }
+    
+    
+    aside{
+        min-width: 320px;
+        max-height: 400px;
+    }
+    
+    
+    
+    .asidetext{
+        text-align: center;
+        font-family: Arial;
+        border: 0px;
+        padding: 0px;
+        font-size: 14px;
+        margin-top: 8px;
+        margin-bottom: 9px;
+        font-weight: bold;
+    }
+    
+    .asidepic{
+        margin-left: 37px;
+    }
+    
+    .asidepic1{
+        width: 198px;
+        height: 203px;
+        margin-right: 9px;
+        display: inline-block;
+        flex-direction: row;
+        display: none;
+    }
+
+    .asidepic2{
+        width: 200px;
+        height: 150px;
+        margin-bottom: 14px;
+        display: block;
+        margin: auto;
+    }
+    
+
+}
